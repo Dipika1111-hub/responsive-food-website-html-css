@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  
+    box-sizing: border-box;
+border: 7px solid burlywood;
+min-width: 600px;}
+
+
+
+#food-header h1{
+    margin-top: 18px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    color: indigo;
+}
+#food-header img{
+    height: 190px;
+    width: 190px;
+   margin-left: 180px;
+   position:relative;
+   justify-content: center;
+   top: 16px;
+   left: 150px;
+   border-radius: 20px;
+}
+#para{
+  margin-left: 16px;
+color: crimson;
+position:relative;
+   left: 200px;
+ animation: image 4s ease-in-out infinite;
+ animation-direction: alternate-reverse;
+}
+@keyframes image{
+    from{left: 0px;}
+    to{left: 700px;}
+}
+#food-header span{
+    color:darkgoldenrod;
+}
+#food-header button{
+    background-color: coral;
+    border-radius: 20px;
+    border-bottom: 10px solid black;
+   font-size: 20px;
+   margin-left: 80px;  
+   border: 2px solid black;
+}
+#food-header button:hover{
+    background-color: darkgreen;
+}
+#food-header button:active{
+    background-color:goldenrod
+}
+section h2{
+    margin-top: 20px;
+    text-align: center;
+    background-color: cadetblue;
+    color: blue;
+    font-size: large;
+}
+#menu_list{
+    display: flex;
+    justify-content:space-around;
+    gap: 25px;
+    margin-top: 20px;
+      
+}
+.food:hover{
+    border: 1px solid wheat;
+background-color: deeppink;
+    }
+    .food:active{
+        background-color: chartreuse;
+    }
+    #food1 img, #food2 img,  #food3 img, #food4 img{
+ height: 50px;
+        width: 50px;
+        margin:10px;
+    }
+
+.food button{
+    background-color:coral;
+    border-radius: 18px;
+    margin-top: 5px;
+}
+@keyframes food{
+    from{left: 0px;}
+    to{left:500px;}
+}
+#menu_list{
+    position: relative;
+    animation: food 2s ease-in-out infinite;
+    animation-direction: alternate;
+}
+ article h2{
+    background-color: darkkhaki;
+    color:darkred;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ #food-quality{
+    display: flex;
+    justify-content: space-around;
+ }
+ .quality{
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+ }
+ #food_quality1,#food_quality2,#food_quality3{
+   
+height: 100px;
+width: 100px;
+ }
+
+ #comments h2{
+    color: darkmagenta;
+    background-color:darksalmon;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+ }
+ #taste_comment{
+    margin: 2px;
+    display: flex;
+    justify-content:space-around
+ }
+ #comment1,#comment2{
+     height: 200px;
+    width: 200px;
+
+ }
+#comment1 h6, #comment2 h6{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 30px;
+ }
+
+#star1{
+    margin-left: 40px;
+    font-size: 10px;
+}
+#star2{
+    margin-right: 60px;
+    font-size: 10px;
+}
